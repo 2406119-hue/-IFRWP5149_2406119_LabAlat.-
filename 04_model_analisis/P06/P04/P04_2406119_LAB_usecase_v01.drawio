@@ -1,0 +1,121 @@
+<mxfile host="65bd71144e">
+    <diagram id="7uq1pDTsYmuBV1f78jau" name="Diagram Use Case Kumulatif LAB">
+        <mxGraphModel dx="853" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-1" parent="1" style="shape=rect;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;align=center;fillColor=none;strokeColor=#000000;strokeWidth=2;" value="Sistem Informasi Peminjaman dan Pengembalian Peralatan Laboratorium Kampus" vertex="1">
+                    <mxGeometry height="740" width="720" x="370" y="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Mahasiswa" vertex="1">
+                    <mxGeometry height="80" width="40" x="210" y="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Peminjam" vertex="1">
+                    <mxGeometry height="80" width="40" x="210" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Dosen" vertex="1">
+                    <mxGeometry height="80" width="40" x="210" y="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Petugas Laboratorium" vertex="1">
+                    <mxGeometry height="80" width="40" x="1130" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Kepala Laboratorium" vertex="1">
+                    <mxGeometry height="80" width="40" x="1130" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="LAB-UC01&#xa;Lihat Ketersediaan Peralatan" vertex="1">
+                    <mxGeometry height="60" width="180" x="410" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="LAB-UC05&#xa;Cetak Bukti Pengajuan" vertex="1">
+                    <mxGeometry height="60" width="180" x="410" y="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="LAB-UC03&#xa;Ajukan Peminjaman" vertex="1">
+                    <mxGeometry height="60" width="180" x="410" y="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;dashed=1;strokeWidth=1.5;fillColor=#FFFFFF;strokeColor=#000000;" value="LAB-CO01&#xa;Ajukan Peminjaman" vertex="1">
+                    <mxGeometry height="60" width="180" x="410" y="420" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="LAB-UC04&#xa;Periksa Ketersediaan" vertex="1">
+                    <mxGeometry height="60" width="180" x="410" y="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="LAB-UC08&#xa;Tambah Data Peralatan" vertex="1">
+                    <mxGeometry height="50" width="170" x="650" y="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="LAB-UC09&#xa;Ubah Data Peralatan" vertex="1">
+                    <mxGeometry height="50" width="170" x="650" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="LAB-UC10&#xa;Hapus Data Peralatan" vertex="1">
+                    <mxGeometry height="50" width="170" x="650" y="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="LAB-UC02&#xa;Kelola Data Peralatan" vertex="1">
+                    <mxGeometry height="60" width="180" x="870" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="LAB-UC06&#xa;Proses Keputusan Peminjaman" vertex="1">
+                    <mxGeometry height="60" width="180" x="870" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="LAB-UC11&#xa;Catat Pengembalian Peralatan" vertex="1">
+                    <mxGeometry height="60" width="180" x="870" y="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;dashed=1;strokeWidth=1.5;fillColor=#FFFFFF;strokeColor=#000000;" value="LAB-CO02&#xa;Catat Pengembalian Peralatan" vertex="1">
+                    <mxGeometry height="60" width="180" x="870" y="540" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="LAB-UC12&#xa;Periksa Kondisi Peralatan" vertex="1">
+                    <mxGeometry height="60" width="180" x="870" y="640" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="LAB-UC07&#xa;Lihat Laporan Peminjaman" vertex="1">
+                    <mxGeometry height="60" width="180" x="870" y="740" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-21" edge="1" parent="1" source="mgATPklfBjPpmrk4Ipfj-2" style="endArrow=block;endSize=10;endFill=0;strokeColor=#000000;" target="mgATPklfBjPpmrk4Ipfj-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-22" edge="1" parent="1" source="mgATPklfBjPpmrk4Ipfj-4" style="endArrow=block;endSize=10;endFill=0;strokeColor=#000000;" target="mgATPklfBjPpmrk4Ipfj-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-23" edge="1" parent="1" source="mgATPklfBjPpmrk4Ipfj-3" style="endArrow=none;strokeColor=#000000;" target="mgATPklfBjPpmrk4Ipfj-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-24" edge="1" parent="1" source="mgATPklfBjPpmrk4Ipfj-3" style="endArrow=none;strokeColor=#000000;" target="mgATPklfBjPpmrk4Ipfj-9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-25" edge="1" parent="1" source="mgATPklfBjPpmrk4Ipfj-2" style="endArrow=none;strokeColor=#000000;" target="mgATPklfBjPpmrk4Ipfj-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-26" edge="1" parent="1" source="mgATPklfBjPpmrk4Ipfj-5" style="endArrow=none;strokeColor=#000000;" target="mgATPklfBjPpmrk4Ipfj-15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-27" edge="1" parent="1" source="mgATPklfBjPpmrk4Ipfj-5" style="endArrow=none;strokeColor=#000000;" target="mgATPklfBjPpmrk4Ipfj-16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-28" edge="1" parent="1" source="mgATPklfBjPpmrk4Ipfj-5" style="endArrow=none;strokeColor=#000000;" target="mgATPklfBjPpmrk4Ipfj-17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-29" edge="1" parent="1" source="mgATPklfBjPpmrk4Ipfj-6" style="endArrow=none;strokeColor=#000000;" target="mgATPklfBjPpmrk4Ipfj-20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-30" edge="1" parent="1" source="mgATPklfBjPpmrk4Ipfj-9" style="endArrow=open;endSize=8;dashed=1;strokeColor=#000000;align=center;verticalAlign=middle;" target="mgATPklfBjPpmrk4Ipfj-11" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-31" edge="1" parent="1" source="mgATPklfBjPpmrk4Ipfj-8" style="endArrow=open;endSize=8;dashed=1;strokeColor=#000000;align=center;verticalAlign=middle;" target="mgATPklfBjPpmrk4Ipfj-9" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-32" edge="1" parent="1" source="mgATPklfBjPpmrk4Ipfj-12" style="endArrow=block;endSize=10;endFill=0;strokeColor=#000000;" target="mgATPklfBjPpmrk4Ipfj-15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-33" edge="1" parent="1" source="mgATPklfBjPpmrk4Ipfj-13" style="endArrow=block;endSize=10;endFill=0;strokeColor=#000000;" target="mgATPklfBjPpmrk4Ipfj-15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-34" edge="1" parent="1" source="mgATPklfBjPpmrk4Ipfj-14" style="endArrow=block;endSize=10;endFill=0;strokeColor=#000000;" target="mgATPklfBjPpmrk4Ipfj-15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-35" edge="1" parent="1" source="mgATPklfBjPpmrk4Ipfj-17" style="endArrow=open;endSize=8;dashed=1;strokeColor=#000000;align=center;verticalAlign=middle;" target="mgATPklfBjPpmrk4Ipfj-19" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-36" edge="1" parent="1" source="mgATPklfBjPpmrk4Ipfj-10" style="endArrow=block;endSize=10;endFill=0;dashed=1;strokeColor=#000000;" target="mgATPklfBjPpmrk4Ipfj-9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgATPklfBjPpmrk4Ipfj-37" edge="1" parent="1" source="mgATPklfBjPpmrk4Ipfj-18" style="endArrow=block;endSize=10;endFill=0;dashed=1;strokeColor=#000000;" target="mgATPklfBjPpmrk4Ipfj-17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

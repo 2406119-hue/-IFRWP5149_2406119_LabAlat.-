@@ -1,1 +1,3 @@
-\
+NAMA : Naupal Nabhan 
+NIM : 2406119
+PERTEMUAN07
